@@ -30,23 +30,37 @@
         <div id="div6">
             <p>Share your experience with us</p>
             <table>
-                <tr>  
-                </tr>
                 <tr>
-                    <td>Your Name : </td>
+                   <td>Your name</td>
                     <td><input></td>
+                    <td>Destination</td>
+                    <td>
+                        <input list="countries">
+                        <datalist id="countries">
+                            <option>Viet Nam</option>
+                            <option>Thailand</option>
+                            <option>Laos</option>
+                            <option>Malaysia</option>
+                            <option>Philipin</option>
+                            <option>EU</option>
+                            
+                        </datalist>
+                    </td>
                     
                 </tr>
                 <tr>
-                    <td>Email : </td>
+                    <td >Email : </td>
                     <td><input></td>
+                    <td>Date</td>
+                    <td><input type="datetime"></td>
                     
                 </tr>
                 <tr>
-                    <td colspan="4">
+                    <td colspan="5">
                     <form action="_blank">
                         <textarea>share your experience...</textarea><br>
                         <input type="submit"></input>
+                        <input type="reset">
                     </form>  
                     </td>
                 </tr>
