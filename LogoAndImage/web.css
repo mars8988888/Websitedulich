@@ -416,7 +416,8 @@ span {
     padding: 170px 75px 0px; 
 }
 #div6 {
-    width: 1360px;
+    border: 1px solid black;
+    width: 1366px;
     height: 500px;
     left: 0px;
     top: 400px;
@@ -426,18 +427,35 @@ span {
     margin-left: auto;
     margin-right: auto;
 }
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
+#div6 p {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+table {
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 50%;
+    height: 0%;
+    
 }
 
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-    background-image: url('/w3images/forestbridge.jpg');
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
+table , th, td {
+    border-collapse: collapse;
+}
+input {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+textarea{
+    width: 1200px;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
 }
