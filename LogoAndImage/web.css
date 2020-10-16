@@ -6,11 +6,11 @@
     margin: 0;
 }
 #header {
-    border: 1px solid black;
-    background-color:grey;
-    background-image: url(./Yellow\ and\ Green\ Travel\ Portfolio\ Website.png);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+    border: 1px solid #4F4F4F;
+    background-color:#4F4F4F;
+    background-image: url(./Canva\ -\ Landscape\ Photo\ of\ Mountains\ Under\ Gray\ Sky.jpg);
+    background-size: 100%;
+    background-position: center;
     width: 100%;
     height: 200px;
     padding: 0px;
@@ -18,7 +18,7 @@
 } 
 /*------------------------------------------------------Navigator------------------------------------------------------------------------------------------ */
 #nav {
-    background-color: #2F4F4F;
+    background-color: #4F4F4F;
     width: 100%;
     height: 50px;
     z-index:1;  
@@ -47,7 +47,7 @@
 .row {
     width: 100%;
     height: 700px;
-    background-color:black;
+    background-color:#4F4F4F;
     
 }
 
@@ -86,7 +86,7 @@
 #div1 { 
     height: 700px;
     z-index: 1;
-    background-color:white;
+    background-color:#f1f1f1;
     
 }
 #intro {
@@ -120,7 +120,7 @@
     position: relative;
     height: 700px;
     z-index: 1;
-    background-color:white;
+    background-color:#f1f1f1;
 }
 #hotnews {
     width: 350px;
@@ -214,7 +214,7 @@
     widows: 100%;;
     height: 70px;
     z-index: 1;
-    background-color:#2F4F4F;
+    background-color:#4F4F4F;
 }
 #footer ul{
     list-style-type: none;
@@ -267,7 +267,7 @@ span {
     position: relative;
     margin-top: 100px;
     margin-left: 200px;
-
+    background-color: #f1f1f1;
 }
 
 #dl1 {
@@ -276,7 +276,7 @@ span {
     position: absolute;
     top: 20px;
     left: auto;
-    border: 1px solid black;
+    
     background-image: url(./PQ.jpg);
     background-size: 100%;  
 }
@@ -287,7 +287,7 @@ span {
     position: absolute;
     top: 240px;
     left: auto;
-    border: 1px solid black;
+    
     background-image: url(./DN.jpg);
     background-size: 100%;
 }
@@ -297,7 +297,7 @@ span {
     position: absolute;
     top: 20px;
     left: 340px;
-    border: 1px solid black;
+    
     background-image: url(./NT.jpg);
     background-size:300px 200px;
     
@@ -308,7 +308,7 @@ span {
     position: absolute;
     top: 240px;
     left: 340px;
-    border: 1px solid black;
+    
     background-image: url(./HN.png);
     background-size: 300px 200px;
 }
@@ -318,7 +318,7 @@ span {
     position: absolute;
     top: 20px;
     left: 680px;
-    border: 1px solid black;
+    
     background-image: url(./NB.jpg);
     background-size: 100%;  
 }
@@ -328,7 +328,7 @@ span {
     position: absolute;
     top: 240px;
     left: 680px;
-    border: 1px solid black;
+   
     background-image: url(./SP.jpg);
     background-size: 100%;
 }
@@ -337,19 +337,19 @@ span {
     text-align: center;
     color:white;
     font-weight: bolder;
-    font-size: 20px;
     font-family: Arial;
 }
-
+.dl a {
+    display: block;
+    border: 1px solid black;
+    font-size: 20px;
+    padding-top: 170px;
+}
 /*------------------------------------------------------page blog/comment------------------------------------------------------------------------------------------ */
 #div6 {
-    width: 1366px;
-    height: 500px;
-    left: 0px;
-    top: 400px;
-    position: absolute;
-    z-index: 2;
-    background-color:inherit;
+    width: 100%;
+    height: 700px;
+    background-color:#f1f1f1;
     margin-left: auto;
     margin-right: auto;
 }
@@ -357,18 +357,19 @@ span {
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
+    text-transform: uppercase;
 
 }
 table {
-    margin-left:80px;
     margin-top: 40px;
-    width: 50%;
-    height: 0%;
-    
+    margin-left: 100px;
+
 }
 table , th, td {
-    
     border-collapse: collapse;
+}
+th {
+    text-align: right;
 }
 
 input {
@@ -376,10 +377,9 @@ input {
     border: 2px solid #ccc;
 }
 textarea{
-    width: 1200px;
-    height: 200px;
+    width: 80%;
+    height: 400px;
     padding: 12px 20px;
-    box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
