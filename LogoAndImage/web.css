@@ -1,57 +1,27 @@
 /*------------------------------------------------------header------------------------------------------------------------------------------------------ */
 *{
+    box-sizing: border-box;
     font-family:arial;
     font-size: 12px;
     margin: 0;
 }
 #header {
-    background-color:white;
-    width:auto;
-    height:auto;
-    position: absolute;
-    left:0px;
-    top:50px;
-    margin: 0px;
+    border: 1px solid black;
+    background-color:grey;
+    background-image: url(./Yellow\ and\ Green\ Travel\ Portfolio\ Website.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
     padding: 0px;
-    z-index:1;
-    
-}
-
-#logo {
-    background-color:black;
-    background-image: url('./Brown\ Tours\ and\ Travels\ Vintage\ Logo-2.png');
-    background-size: 100%;
-    background-position: center;
-    width: 300px;
-    height: 350px;
-    position: relative;
-    left:0px;
-    top:0px;
-    z-index:1;
-    }
- 
-#banner{
-    width:1060px;
-    height: 350px;
-    background-image:url('./Yellow\ and\ Green\ Travel\ Portfolio\ Website.png');
-    background-position: center;
-    background-size: 1060px 350px;
-    background-repeat:no-repeat; 
-    position: absolute;
-    left:300px;
-    top: 0px;
-    z-index:2; 
-    }
+    z-index:2;
+} 
 /*------------------------------------------------------Navigator------------------------------------------------------------------------------------------ */
 #nav {
-    position: absolute;
-    width: 1360px;;
-    height: 50px;
-    left: 0px;
-    top: 0px;
-    z-index: 5;
     background-color: #2F4F4F;
-    
+    width: 100%;
+    height: 50px;
+    z-index:1;  
 }
 #nav ul {
     margin: 0px;
@@ -59,7 +29,7 @@
     list-style-type: none;
 }
 #nav li {
-    display: inline-block;
+    float: left;
     
 }
 #nav a {
@@ -73,12 +43,48 @@
     background-color:slategray;
 }
 /*------------------------------------------------------body------------------------------------------------------------------------------------------ */
+
+.row {
+    width: 100%;
+    height: 700px;
+    background-color:black;
+    
+}
+
+.row::after   {
+    content:"";
+    clear:both;
+    display:table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+  
+/* ---------------------------for mobile------------------------------------*/
+[class*="col-"] {
+        width: 100%;
+    }
+
+@media only screen and (min-width: 1280px) {
+/*---------------------------for desktop-------------------------------------*/  
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}    
+}
+
 #div1 { 
-    width: 250px;
     height: 500px;
-    left: 0px;
-    top: 400px;
-    position: absolute;
     z-index: 1;
     background-color:#f1f1f1;
     
@@ -117,12 +123,8 @@
 } 
 
 #div2 {
-    width: 800px;
     height: 500px;
-    left: 250px;
-    top: 400px;
-    position: absolute;
-    z-index: 2;
+    z-index: 1;
     background-color:white;
 }
 #hotnews {
@@ -206,26 +208,15 @@
     
 }
 #div3 {
-    width: 300px;
+    background-color:grey;
     height: 500px;
-    left: 1050px;
-    top: 400px;
-    position: absolute;
-    z-index: 2;
-    border: 1px solid seagreen;
-    border-radius: 20px 20px 20px 20px;
-    background-color:yellowgreen;
-    background-image: url(./1-1439808939338.jpg);
-    background-size: 300px 500px;
+    z-index: 1;
 }
 /*------------------------------------------------------footer------------------------------------------------------------------------------------------ */
 #footer {
-    width: 1360px;
+    widows: 100%;;
     height: 70px;
-    left: 0px;
-    top: 950px;
-    position: absolute;
-    z-index: 2;
+    z-index: 1;
     background-color:#2F4F4F;
 }
 #footer ul{
@@ -389,35 +380,9 @@ span {
     font-size: 20px;
     font-family: Arial;
 }
-#dl1 a{
+#dl1 #dl2 #dl3 #dl4 #dl5 #dl6 a{
     display: block;
     padding: 170px 75px 0px;  
-}
-#dl2 a{
-    display: block;
-    padding: 170px 75px 0px;
-    
-}
-#dl3 a{
-    display: block;
-    padding: 170px 75px 0px;
-    
-    
-}
-#dl4 a{
-    display: block;
-    padding: 170px 75px 0px;
-    
-    
-}
-#dl5 a{
-    display: block;
-    padding: 170px 75px 0px;
-    
-}
-#dl6 a{
-    display: block;
-    padding: 170px 75px 0px; 
 }
 /*------------------------------------------------------page blog/comment------------------------------------------------------------------------------------------ */
 #div6 {
