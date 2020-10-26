@@ -157,10 +157,14 @@ tr, td {
 }
 #photo {
     width: 100%;
-    height: 100px;
+    height: 100%;
     background-color:white;
     border: 1px solid black;
     border-radius: 20px 20px 20px 20px;
+    text-align: center;
+}
+#photo span{
+    margin: 0px;
 }
 #news1 {
     width: 100%;
@@ -200,7 +204,7 @@ tr, td {
 }
 #div3 {
     height: 700px;
-    background-image: url(./1-1439808939338.jpg);
+    background-image: url(./9228228082287574460.gif);
     background-size: 100%;  
     background-color:white;
     background-repeat: no-repeat;
