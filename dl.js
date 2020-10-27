@@ -1,4 +1,5 @@
 window.onload = function(){
+//----------------make time calculator----------------------------------------------------------------
     var second = 00;
     var milisecond = 00;
 
@@ -51,12 +52,11 @@ window.onload = function(){
     }
 //------------------------------------------make a clock-----------------------------------------------------------
     
-    function showTime(){
+function showTime(){
                 var date = new Date();
                 var h = date.getHours();
                 var m = date.getMinutes();
-          
-           var s = date.getSeconds();
+                var s = date.getSeconds();
                 var session = "AM"
 
                 if(h == 0){
@@ -77,6 +77,6 @@ window.onload = function(){
             document.getElementById("dongho").textContent = time;
             setTimeout(showTime, 1000);                       
                 }
-    showTime();                           
-               
+showTime();                                          
 }
+
